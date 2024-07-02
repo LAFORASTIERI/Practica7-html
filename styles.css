@@ -1,0 +1,224 @@
+body {
+    background-color: #f0f0f0;
+    font-family: 'Fira Sans', Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #021f03;
+}
+
+header h1 {
+    color: white;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+h2 {
+    color: #000200;
+}
+
+.mermelada {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: white;
+    width: 45%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.mermelada img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+footer {
+    background-color: #4d7503;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el formulario de contacto */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: rgb(217, 218, 217);
+}
+
+form input[type="submit"] {
+    background-color: #022503;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+form input[type="submit"]:active {
+    background-color: #4f5f07;
+}
+
+/*formulario inicio sesion*/
+
+
+body {
+    background-color: #f0f0f0;
+    font-family: 'Fira Sans', Arial, sans-serif;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #021f03;
+    padding: 20px;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #000200;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form h3 {
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #011f46;
+}
+
+form p {
+    margin: 0;
+}
+
+form p a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+form p a:hover {
+    text-decoration: underline;
+    color: #011f46;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+
+form h3
+{
+ color:#0d3091;
+ font-size: 25px;
+}
